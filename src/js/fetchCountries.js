@@ -44,7 +44,7 @@ export function fetchCountries(name) {
     .finally(() => {
       if (countryList !== '') {
         const text = document.querySelectorAll('p');
-        for (paragraph of text) {
+        for (const paragraph of text) {
           paragraph.style.color = 'tomato';
         }
       }
