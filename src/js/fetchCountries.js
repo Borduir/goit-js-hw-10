@@ -11,7 +11,6 @@ export function fetchCountries(name, newResponse, marckup) {
       countryList.innerHTML = '';
     }
     newResponse = response.json();
-    console.log(newResponse);
     return newResponse;
   });
 }
